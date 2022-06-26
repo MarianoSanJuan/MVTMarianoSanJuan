@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'familia'
+    
 ]
 
 MIDDLEWARE = [
@@ -54,7 +56,7 @@ ROOT_URLCONF = 'MVTMarianoSanJuan.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [r"/Users/MarianSanJuan/Desktop/Coderhouse/Python/Entrega-MVT-MarianoSanJuan/templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
