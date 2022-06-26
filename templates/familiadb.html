@@ -9,14 +9,8 @@
 <body>
     <h1>Esta es la familia de {{nombre}} {{apellido}}</h1>
         <ul>
-            {% for valor in lista %}
-                <li> {{valor}} </li>
-            {% endfor %}
-        </ul>
-        <ul>
-            {% for valor in listaedad %}
-                <li> {{valor}} </li>
-            {% endfor %}
+            <li> {{integrante.nombre}} </li>    
+            <li> {{integrante.edad}} </li>
         </ul>
 
     {% comment %} <ul>
